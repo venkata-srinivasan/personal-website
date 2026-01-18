@@ -190,7 +190,7 @@ export default function Activity() {
         </div>
 
         {/* Additional Platforms Row */}
-        <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* YouTube Card */}
           <a
             href="https://www.youtube.com/channel/UCo7fv3jXqQGLbIDc3CbzSXQ"
@@ -255,6 +255,29 @@ export default function Activity() {
                 <div className="text-sm text-[#9ca3af]">Open source projects</div>
               </div>
               <svg className="w-5 h-5 ml-auto text-[#9ca3af] group-hover:text-[#6e5494] group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </a>
+
+          {/* Kaggle Card */}
+          <a
+            href="https://www.kaggle.com/mailmeverus"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-5 rounded-xl bg-[#12121a] border border-[#1e1e2e] card-hover group"
+          >
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-xl bg-[#20BEFF]/20 flex items-center justify-center group-hover:bg-[#20BEFF]/30 transition-colors">
+                <svg className="w-6 h-6 text-[#20BEFF]" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.281.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.075.339"/>
+                </svg>
+              </div>
+              <div>
+                <div className="font-semibold group-hover:text-[#20BEFF] transition-colors">Kaggle</div>
+                <div className="text-sm text-[#9ca3af]">Competitions & notebooks</div>
+              </div>
+              <svg className="w-5 h-5 ml-auto text-[#9ca3af] group-hover:text-[#20BEFF] group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </div>
