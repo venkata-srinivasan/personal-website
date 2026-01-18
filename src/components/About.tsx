@@ -33,7 +33,7 @@ const interests = [
   { icon: '🏋️', title: 'Fitness', description: 'Gym, yoga, and hiking enthusiast - no rest days!' },
   { icon: '🌍', title: 'Travel', description: 'Solo explored 7 European countries and 25 U.S. states' },
   { icon: '🎵', title: 'Music', description: 'AR Rahman admirer with eclectic Spotify tastes' },
-  { icon: '🧠', title: 'Psychology', description: 'Currently hyperfixated on Huberman podcasts' },
+  { icon: '🧠', title: 'Psychology', description: 'Fascinated by Huberman podcasts' },
 ];
 
 export default function About() {
@@ -42,7 +42,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="section-title text-center mb-4">About Me</h2>
         <p className="text-center text-[#9ca3af] mb-16 max-w-2xl mx-auto">
-          A passionate AI practitioner with a unique perspective, thanks to ADHD-fueled creativity and hyperfocus.
+          A passionate AI practitioner who thrives on challenges and continuous learning.
         </p>
 
         {/* Experience Section */}
@@ -133,8 +133,8 @@ export default function About() {
 
           <div className="mt-8 p-6 rounded-xl bg-gradient-to-r from-[#12121a] to-[#1a1a2e] border border-[#1e1e2e]">
             <p className="text-[#9ca3af] leading-relaxed">
-              I'm neurodivergent, which allows me to think outside the box and be highly competitive.
-              My hyperfixations have led me to excel at random activities like dancing, skating, and skiing.
+              I love thinking outside the box and thrive on competition.
+              My diverse interests have led me to excel at activities like dancing, skating, and skiing.
               In my social circles, I'm often relied upon for financial advice and trip planning.
               I admire <span className="text-[#f59e0b]">AR Rahman</span>, <span className="text-[#22d3ee]">Novak Djokovic</span>,
               and <span className="text-[#6366f1]">Lewis Hamilton</span>.
